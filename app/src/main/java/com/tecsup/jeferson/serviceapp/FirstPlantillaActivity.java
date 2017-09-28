@@ -27,7 +27,7 @@ public class FirstPlantillaActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         String nombre = "Jeferson";
-        String nombre2 = "Jeferson";
+        String nombre2 = "Rodriguez";
 
         // Set DrawerLayout
         drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
