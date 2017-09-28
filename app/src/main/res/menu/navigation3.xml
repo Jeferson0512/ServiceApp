@@ -14,17 +14,12 @@
         <item
             android:id="@+id/nav_calendar"
             android:icon="@android:drawable/ic_menu_my_calendar"
-            android:title="Consultar Tickets" />
+            android:title="Registrar Tickets" />
 
         <item
             android:id="@+id/nav_gallery"
-            android:icon="@android:drawable/ic_menu_add"
-            android:title="Asignar Tickets" />
-
-        <item
-            android:id="@+id/nav_locations"
-            android:icon="@android:drawable/ic_menu_agenda"
-            android:title="Reportar Tickets" />
+            android:icon="@android:drawable/ic_menu_search"
+            android:title="Consultar Estado" />
 
     </group>
 
@@ -43,6 +38,5 @@
             android:title="Salir" />
 
     </group>
-
 
 </menu>
