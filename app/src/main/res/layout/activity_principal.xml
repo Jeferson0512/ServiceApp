@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E0E0E0"
+    android:orientation="vertical"
+    tools:context="com.tecsup.jeferson.serviceapp.PrincipalActivity">
+
+    <ImageView
+        android:id="@+id/logo_login"
+        android:layout_width="350dp"
+        android:layout_height="150dp"
+        android:src="@drawable/logo2"
+        android:layout_marginTop="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo_login"
+        android:layout_centerInParent="true"
+        android:id="@+id/mejorado_edit_usuario">
+    <EditText
+        android:id="@+id/edit_usuario"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:hint="@string/usuario"
+        android:inputType="text"
+        android:shadowColor="@android:color/white"
+        android:maxLength="15"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mejorado_edit_usuario"
+        android:layout_centerInParent="true"
+        android:id="@+id/mejorado_edit_contraseña">
+
+        <EditText
+            android:id="@+id/edit_contraseña"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edit_usuario"
+            android:layout_centerInParent="true"
+            android:hint="@string/contra"
+            android:inputType="textPassword"
+            android:layout_marginTop="10dp"
+            android:maxLength="15"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/btn_ingresar"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/iniciar_sesion"
+        android:layout_below="@+id/mejorado_edit_contraseña"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="15dp"
+        android:background="@android:color/holo_green_dark"
+        android:textColor="@android:color/white"
+        android:onClick="Ingresar"/>
+
+</RelativeLayout>
